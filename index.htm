@@ -53,17 +53,17 @@
       <script>
         function showhide(){
           const inst = document.getElementById("inst-text");
-          if (inst.style.visibility=="visible")
-            inst.style.visibility="hidden";
+          if (inst.style.display=="block")
+            inst.style.display="none";
           else
-            inst.style.visibility="visible";
+            inst.style.display="block";
         }
       </script>
-      <button id= "inst-button" onclick="showhide()">Instructions & Overview</button>
+      <button id= "inst-button" onclick="showhide()">Instructions & overview</button>
 
       <div id="inst-text">
         <p>
-        Matrix Wolframizer is a site for converting matrices into their Wolfram language representation (then we can use them with <a href="https://www.wolframalpha.com/">WolframAlpha!</a>). Use the mouse or arrow keys to move around, or press the enter key to "wolframize" at any given moment. You can fill matrix entries with any Unicode character, or nothing at all. Besides the mouse, you can use Ctr+arrow keys to move inside one cel. <br>Alright, I think that's it, if you have any comments or find any bugs, hop over to my github, and happy matrixing! :) 
+        Matrix Wolframizer is a site for converting matrices into their Wolfram language representation (then we can use them with <a href="https//www.wolframalpha.com/">WolframAlpha!</a>). Use the mouse or arrow keys to move around, or press the enter key to "wolframize" at any given moment. You can fill matrix entries with any Unicode character, or nothing at all. Besides the mouse, you can use Ctr+arrow keys to move inside one cel. <br>Alright, I think that's it, if you have any comments or find any bugs, hop over to my github, and happy matrixing! :) 
         <br><br>
         </p>
         

@@ -87,7 +87,8 @@ button {
 }
 
 #inst-text{
-    visibility: hidden;
+    /* visibility: hidden; */
+    display:none;
     background-color:#ffd394;
     font-size: 1.4vmax;
     text-align: left;
