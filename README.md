@@ -1,5 +1,5 @@
 # The Matrix Wolframizer
-Matrix Wolframizer is a site for converting matrices into their Wolfram language representation, so you can plug them into [Wolfram Alfa](https://www.wolframalpha.com/). For example the matrix
+Matrix Wolframizer is a site for converting matrices into their Wolfram language representation, so you can plug them into [Wolfram Alfa](https://www.wolframalpha.com/). For example, the matrix
 ```
 [1 2]
 [3 4]
