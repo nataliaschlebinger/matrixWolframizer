@@ -1,7 +1,7 @@
 # The Matrix Wolframizer
 Matrix Wolframizer is a site for converting matrices into their Wolfram language representation, so you can plug them into [Wolfram Alfa](https://www.wolframalpha.com/). For example,
 `
-[1 2]
+[1 2]\n
 [3 4]
 `
 comes out as `{{1,2},{3,4}}`.
