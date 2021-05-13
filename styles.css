@@ -20,6 +20,11 @@ button {
     
 }
 
+button:active {
+    background-color: #A7DEB0;
+}
+
+
 #filltext {
     font-size: 1.7vmax;
 }
