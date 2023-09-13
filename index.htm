@@ -1,77 +1,84 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <title>Matrix Wolframizer</title>
 
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+<head>
+  <meta charset="utf-8">
+  <title>Matrix Wolframizer</title>
 
-    <link rel="stylesheet" type="text/css" href="styles.css" />
-    <link rel="shortcut icon" type="image/x-icon" href="icon.jpg" />
-  </head>
-  <body>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
 
-    <section id=wolframizer>
+  <link rel="stylesheet" type="text/css" href="styles.css" />
+  <link rel="shortcut icon" type="image/x-icon" href="icon.jpg" />
+</head>
+
+<body>
+
+  <section id=wolframizer>
     <form>
-        <label for="filling" id="filltext">Whatever we want new cells to be filled with:</label>
-        <input id="filling" value="0" size="1">
+      <label for="filling" id="filltext">Whatever we want new cells to be filled with:</label>
+      <input id="filling" value="0" size="1">
     </form>
     <div id="buttons">
       <div id="rows">
-          <button onclick=newRow()>New row</button>
-          <button onclick=newCol()>New collumn</button>
+        <button onclick=newRow()>New row</button>
+        <button onclick=newCol()>New collumn</button>
       </div>
       <div id="cols">
-          <button onclick=deleteRow()>Delete last row</button>
-          <button onclick=deleteCol()>Delete last collumn</button>
+        <button onclick=deleteRow()>Delete last row</button>
+        <button onclick=deleteCol()>Delete last collumn</button>
       </div>
-      
+
     </div>
     <br>
-    
+
     <div id="matrix"></div>
     <p id="dimensions"></p>
 
     <script src="main.js"></script>
 
     <button id="wolf-button" onclick=wolframize()>Wolframize!</button>
-    
+
     <div id=output-section>
-        <p>
-          <span id="output-title">Your output:  </span>
-          <span id="output"></span>
-        </p>
-        <button onclick="mycopy()" id="copy">Copy to clipboard</button>
+      <p>
+        <span id="output-title">Your output: </span>
+        <span id="output"></span>
+      </p>
+      <button onclick="mycopy()" id="copy">Copy to clipboard</button>
     </div>
 
 
-    </section>
-    
-    <section id="instructions">
-      <script>
-        function showhide(){
-          const inst = document.getElementById("inst-text");
-          if (inst.style.display=="block")
-            inst.style.display="none";
-          else
-            inst.style.display="block";
-        }
-      </script>
-      <button id= "inst-button" onclick="showhide()">Instructions & overview</button>
+  </section>
 
-      <div id="inst-text">
-        <p>
-        Matrix Wolframizer is a site for converting matrices into their Wolfram language representation (then we can use them with <a href="https//www.wolframalpha.com/">WolframAlpha!</a>). Use the mouse or arrow keys to move around, or press the enter key to "wolframize" at any given moment. You can fill matrix entries with any Unicode character, or nothing at all. Besides the mouse, you can use Ctr+arrow keys to move inside one cel.
-        <br>Alright, I think that's it, if you have any comments or find any bugs, hop over to my <a href="https://github.com/Natalia1248">github</a>, and happy matrixing! :) 
+  <section id="instructions">
+    <script>
+      function showhide() {
+        const inst = document.getElementById("inst-text");
+        if (inst.style.display == "block")
+          inst.style.display = "none";
+        else
+          inst.style.display = "block";
+      }
+    </script>
+    <button id="inst-button" onclick="showhide()">Instructions & overview</button>
+
+    <div id="inst-text">
+      <p>
+        Matrix Wolframizer is a site for converting matrices into their Wolfram language representation (then we can use
+        them with <a href="https//www.wolframalpha.com/">WolframAlpha!</a>). Use the mouse or arrow keys to move around,
+        or press the enter key to "wolframize" at any given moment. You can fill matrix entries with any Unicode
+        character, or nothing at all. Besides the mouse, you can use Ctr+arrow keys to move inside one cel.
+        <br>Alright, I think that's it, if you have any comments or find any bugs, hop over to my <a
+          href="https://github.com/Natalia1248">github</a>, and happy matrixing! :)
         <br><br>
-        </p>
-        
-        <p id="my-name">~Natalia</p>
-        
-      </div>
+      </p>
 
-    </section>
-        
-  </body>
+      <p id="my-name">~Natalia</p>
+
+    </div>
+
+  </section>
+
+</body>
+
 </html>

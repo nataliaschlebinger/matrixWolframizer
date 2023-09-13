@@ -1,23 +1,24 @@
 body {
-    background-color:  #F4D0D5;
+    background-color: #F4D0D5;
     font-family: 'Varela Round', sans-serif;
     margin-top: 7vmin;
 }
 
-#wolframizer{
+#wolframizer {
     margin-left: 15vw;
 
 }
 
-input, button {
+input,
+button {
     font-family: inherit;
 }
 
 button {
-    background-color:  #BBF1C4;
+    background-color: #BBF1C4;
     border-radius: 7px;
     border: none;
-    
+
 }
 
 button:active {
@@ -57,7 +58,7 @@ button:active {
     padding: 10px;
 }
 
-#output-section{
+#output-section {
     margin-top: 2.4vmax;
 }
 
@@ -73,40 +74,39 @@ button:active {
     font-size: 1.5vw;
 }
 
-#copy{
+#copy {
     margin-left: 17vw;
     font-size: 1.2vmax;
 }
 
-#instructions{
+#instructions {
     margin-top: 5vmax;
     margin-left: 5vw;
     margin-right: 5vw;
-    
+
 }
 
-#inst-button{
+#inst-button {
     background-color: #ffd394;
     border-radius: 0px;
     font-size: 1.6vmax;
 }
 
-#inst-text{
+#inst-text {
     /* visibility: hidden; */
-    display:none;
-    background-color:#ffd394;
+    display: none;
+    background-color: #ffd394;
     font-size: 1.4vmax;
     text-align: left;
-    padding: 8px; 
+    padding: 8px;
     margin-top: 10px;
     margin-bottom: 10px;
 }
 
 a {
-    color:#26142a;
-  }
-
-#my-name{
-    text-align:right;
+    color: #26142a;
 }
 
+#my-name {
+    text-align: right;
+}
