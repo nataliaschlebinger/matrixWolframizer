@@ -1,112 +1,107 @@
 body {
-    background-color: #F4D0D5;
-    font-family: 'Varela Round', sans-serif;
-    margin-top: 7vmin;
+  background-color: #f4d0d5;
+  font-family: 'Varela Round', sans-serif;
+  margin-top: 7vmin;
 }
 
 #wolframizer {
-    margin-left: 15vw;
-
+  margin-left: 15vw;
 }
 
 input,
 button {
-    font-family: inherit;
+  font-family: inherit;
 }
 
 button {
-    background-color: #BBF1C4;
-    border-radius: 7px;
-    border: none;
-
+  background-color: #bbf1c4;
+  border-radius: 7px;
+  border: none;
 }
 
 button:active {
-    background-color: #A7DEB0;
+  background-color: #a7deb0;
 }
 
-
 #filltext {
-    font-size: 1.7vmax;
+  font-size: 1.7vmax;
 }
 
 #filling {
-    font-size: 1.1vmax;
-    border-radius: 5px;
+  font-size: 1.1vmax;
+  border-radius: 5px;
 }
 
 #matrix input {
-    font-size: 1.5vmax;
+  font-size: 1.5vmax;
 }
 
 #buttons button {
-    width: 18vmax;
-    height: 2vmax;
-    font-size: 1.6vmax;
-    margin-top: 5px;
-    margin-inline: 10px;
+  width: 18vmax;
+  height: 2vmax;
+  font-size: 1.6vmax;
+  margin-top: 5px;
+  margin-inline: 10px;
 }
 
 #dimensions {
-    font-size: 1vw;
-    font-weight: bold;
+  font-size: 1vw;
+  font-weight: bold;
 }
 
 #wolf-button {
-    margin-top: 1.5vmax;
-    font-size: 2.5vmax;
-    padding: 10px;
+  margin-top: 1.5vmax;
+  font-size: 2.5vmax;
+  padding: 10px;
 }
 
 #output-section {
-    margin-top: 2.4vmax;
+  margin-top: 2.4vmax;
 }
 
 #output-title {
-    font-size: 2.6vw;
-    font-weight: bold;
+  font-size: 2.6vw;
+  font-weight: bold;
 }
 
 #output {
-    background-color: white;
-    padding: 5px;
-    font-weight: normal;
-    font-size: 1.5vw;
+  background-color: white;
+  padding: 5px;
+  font-weight: normal;
+  font-size: 1.5vw;
 }
 
 #copy {
-    margin-left: 17vw;
-    font-size: 1.2vmax;
+  margin-left: 17vw;
+  font-size: 1.2vmax;
 }
 
 #instructions {
-    margin-top: 5vmax;
-    margin-left: 5vw;
-    margin-right: 5vw;
-
+  margin-top: 5vmax;
+  margin-left: 5vw;
+  margin-right: 5vw;
 }
 
 #inst-button {
-    background-color: #ffd394;
-    border-radius: 0px;
-    font-size: 1.6vmax;
+  background-color: #ffd394;
+  border-radius: 0px;
+  font-size: 1.6vmax;
 }
 
 #inst-text {
-    /* visibility: hidden; */
-    display: none;
-    background-color: #ffd394;
-    font-size: 1.4vmax;
-    text-align: left;
-    padding: 8px;
-    margin-top: 10px;
-    margin-bottom: 10px;
+  display: none;
+  background-color: #ffd394;
+  font-size: 1.4vmax;
+  text-align: left;
+  padding: 8px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 a {
-    color: #26142a;
+  color: #26142a;
 }
 
 #my-name {
-    text-align: right;
+  text-align: right;
 }
